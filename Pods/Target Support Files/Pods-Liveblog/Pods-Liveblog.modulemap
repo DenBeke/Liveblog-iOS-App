@@ -1,0 +1,6 @@
+framework module Pods_Liveblog {
+  umbrella header "Pods-Liveblog-umbrella.h"
+
+  export *
+  module * { export * }
+}

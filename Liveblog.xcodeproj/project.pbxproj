@@ -14,7 +14,40 @@
 		C78347E81B2750C500463DB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C78347E61B2750C500463DB3 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		C7D3A6931B27681500989735 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7D3A68C1B27681500989735 /* Starscream.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6B3E79E619D48B7F006071F7;
+			remoteInfo = Starscream;
+		};
+		C7D3A6951B27681500989735 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7D3A68C1B27681500989735 /* Starscream.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6B3E79F119D48B7F006071F7;
+			remoteInfo = StarscreamTests;
+		};
+		C7D3A6971B27681500989735 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7D3A68C1B27681500989735 /* Starscream.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D9C3E35F19E48FF1009FC285;
+			remoteInfo = StarscreamOSX;
+		};
+		C7D3A6991B27681500989735 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7D3A68C1B27681500989735 /* Starscream.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D9C3E36919E48FF1009FC285;
+			remoteInfo = StarscreamOSXTests;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		0A371EE9B38D7856C74EBA9B /* Pods-Liveblog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Liveblog.release.xcconfig"; path = "Pods/Target Support Files/Pods-Liveblog/Pods-Liveblog.release.xcconfig"; sourceTree = "<group>"; };
+		55446E379BC2E4394D3A754C /* Pods_Liveblog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Liveblog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C78347DA1B2750C500463DB3 /* Liveblog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Liveblog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C78347DD1B2750C500463DB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C78347DF1B2750C500463DB3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +55,8 @@
 		C78347E41B2750C500463DB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C78347E71B2750C500463DB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C78347E91B2750C500463DB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7D3A68C1B27681500989735 /* Starscream.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Starscream.xcodeproj; path = ../Starscream/Starscream.xcodeproj; sourceTree = "<group>"; };
+		FA65441489356721AAE8B7A4 /* Pods-Liveblog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Liveblog.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Liveblog/Pods-Liveblog.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,11 +70,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5F4AA1CB828DB4F81E4E6DFD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				55446E379BC2E4394D3A754C /* Pods_Liveblog.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		774AC67CA0F806E5894C50E7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FA65441489356721AAE8B7A4 /* Pods-Liveblog.debug.xcconfig */,
+				0A371EE9B38D7856C74EBA9B /* Pods-Liveblog.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C78347D11B2750C500463DB3 = {
 			isa = PBXGroup;
 			children = (
+				C7D3A68C1B27681500989735 /* Starscream.xcodeproj */,
 				C78347DC1B2750C500463DB3 /* Liveblog */,
 				C78347DB1B2750C500463DB3 /* Products */,
+				774AC67CA0F806E5894C50E7 /* Pods */,
+				5F4AA1CB828DB4F81E4E6DFD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +119,17 @@
 			path = Liveblog;
 			sourceTree = "<group>";
 		};
+		C7D3A68D1B27681500989735 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7D3A6941B27681500989735 /* Starscream.framework */,
+				C7D3A6961B27681500989735 /* StarscreamTests.xctest */,
+				C7D3A6981B27681500989735 /* Starscream.framework */,
+				C7D3A69A1B27681500989735 /* StarscreamOSXTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +137,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C78347EC1B2750C500463DB3 /* Build configuration list for PBXNativeTarget "Liveblog" */;
 			buildPhases = (
+				C5A0009AA37CD77BC9501689 /* Check Pods Manifest.lock */,
 				C78347D61B2750C500463DB3 /* Sources */,
 				C78347D71B2750C500463DB3 /* Frameworks */,
 				C78347D81B2750C500463DB3 /* Resources */,
+				2CFBEEC0ADA45A680D649FBC /* Embed Pods Frameworks */,
+				31358B0325C8B8D7D551C86B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -90,11 +159,13 @@
 		C78347D21B2750C500463DB3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = DenBeke;
 				TargetAttributes = {
 					C78347D91B2750C500463DB3 = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 2H55825CLX;
 					};
 				};
 			};
@@ -109,12 +180,49 @@
 			mainGroup = C78347D11B2750C500463DB3;
 			productRefGroup = C78347DB1B2750C500463DB3 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = C7D3A68D1B27681500989735 /* Products */;
+					ProjectRef = C7D3A68C1B27681500989735 /* Starscream.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				C78347D91B2750C500463DB3 /* Liveblog */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		C7D3A6941B27681500989735 /* Starscream.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Starscream.framework;
+			remoteRef = C7D3A6931B27681500989735 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C7D3A6961B27681500989735 /* StarscreamTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = StarscreamTests.xctest;
+			remoteRef = C7D3A6951B27681500989735 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C7D3A6981B27681500989735 /* Starscream.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Starscream.framework;
+			remoteRef = C7D3A6971B27681500989735 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C7D3A69A1B27681500989735 /* StarscreamOSXTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = StarscreamOSXTests.xctest;
+			remoteRef = C7D3A6991B27681500989735 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		C78347D81B2750C500463DB3 /* Resources */ = {
@@ -128,6 +236,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2CFBEEC0ADA45A680D649FBC /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Liveblog/Pods-Liveblog-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		31358B0325C8B8D7D551C86B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Liveblog/Pods-Liveblog-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5A0009AA37CD77BC9501689 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C78347D61B2750C500463DB3 /* Sources */ = {
@@ -244,23 +400,33 @@
 		};
 		C78347ED1B2750C500463DB3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA65441489356721AAE8B7A4 /* Pods-Liveblog.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Liveblog/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = denbeke.Liveblog;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		C78347EE1B2750C500463DB3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A371EE9B38D7856C74EBA9B /* Pods-Liveblog.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Liveblog/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = denbeke.Liveblog;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -283,6 +449,7 @@
 				C78347EE1B2750C500463DB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
