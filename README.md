@@ -17,6 +17,7 @@ Mind that you need to run the Go back-end and change the socket url in `ViewCont
 let socket = WebSocket(url: NSURL(scheme: "ws", host: "labs.denbeke.be:1234", path: "/")!)
 ```
 
+![Liveblog iOS app screenshot](http://denbeke.be/blog/wp-content/uploads/2015/06/Liveblog-iOS-iPhone-app-screenshot.png)
 
 Acknowledgements
 ----------------
