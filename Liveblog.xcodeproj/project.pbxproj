@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C72A64FD1B286E1F00B9F1BF /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = C72A64FC1B286E1F00B9F1BF /* README.md */; };
 		C78347DE1B2750C500463DB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78347DD1B2750C500463DB3 /* AppDelegate.swift */; };
 		C78347E01B2750C500463DB3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78347DF1B2750C500463DB3 /* ViewController.swift */; };
 		C78347E31B2750C500463DB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C78347E11B2750C500463DB3 /* Main.storyboard */; };
 		C78347E51B2750C500463DB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C78347E41B2750C500463DB3 /* Assets.xcassets */; };
 		C78347E81B2750C500463DB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C78347E61B2750C500463DB3 /* LaunchScreen.storyboard */; };
+		C7E278B41B29638B00535957 /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7E278B31B29638B00535957 /* Starscream.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,7 @@
 /* Begin PBXFileReference section */
 		0A371EE9B38D7856C74EBA9B /* Pods-Liveblog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Liveblog.release.xcconfig"; path = "Pods/Target Support Files/Pods-Liveblog/Pods-Liveblog.release.xcconfig"; sourceTree = "<group>"; };
 		55446E379BC2E4394D3A754C /* Pods_Liveblog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Liveblog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C72A64FC1B286E1F00B9F1BF /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C78347DA1B2750C500463DB3 /* Liveblog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Liveblog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C78347DD1B2750C500463DB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C78347DF1B2750C500463DB3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +59,7 @@
 		C78347E71B2750C500463DB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C78347E91B2750C500463DB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C7D3A68C1B27681500989735 /* Starscream.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Starscream.xcodeproj; path = ../Starscream/Starscream.xcodeproj; sourceTree = "<group>"; };
+		C7E278B31B29638B00535957 /* Starscream.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Starscream.framework; path = "Pods/../build/Debug-iphoneos/Pods-Liveblog/Starscream.framework"; sourceTree = "<group>"; };
 		FA65441489356721AAE8B7A4 /* Pods-Liveblog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Liveblog.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Liveblog/Pods-Liveblog.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -64,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7E278B41B29638B00535957 /* Starscream.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +78,7 @@
 		5F4AA1CB828DB4F81E4E6DFD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C7E278B31B29638B00535957 /* Starscream.framework */,
 				55446E379BC2E4394D3A754C /* Pods_Liveblog.framework */,
 			);
 			name = Frameworks;
@@ -90,6 +96,7 @@
 		C78347D11B2750C500463DB3 = {
 			isa = PBXGroup;
 			children = (
+				C72A64FC1B286E1F00B9F1BF /* README.md */,
 				C7D3A68C1B27681500989735 /* Starscream.xcodeproj */,
 				C78347DC1B2750C500463DB3 /* Liveblog */,
 				C78347DB1B2750C500463DB3 /* Products */,
@@ -290,6 +297,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C72A64FD1B286E1F00B9F1BF /* README.md in Sources */,
 				C78347E01B2750C500463DB3 /* ViewController.swift in Sources */,
 				C78347DE1B2750C500463DB3 /* AppDelegate.swift in Sources */,
 			);

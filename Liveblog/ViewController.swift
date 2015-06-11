@@ -16,7 +16,7 @@ class ViewController: UIViewController, WebSocketDelegate  {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        textView.textContainerInset = UIEdgeInsetsMake(8,5,8,5); // top, left, bottom, right
+        textView.textContainerInset = UIEdgeInsetsMake(8,8,4,8); // top, left, bottom, right
         
         // Setup WebSocket
         let socket = WebSocket(url: NSURL(scheme: "ws", host: "labs.denbeke.be:1234", path: "/")!)
