@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C72A64FD1B286E1F00B9F1BF /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = C72A64FC1B286E1F00B9F1BF /* README.md */; };
+		C771B80F1B2B38FC001ABFCF /* LiveblogLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = C771B80E1B2B38FC001ABFCF /* LiveblogLogo.png */; };
 		C78347DE1B2750C500463DB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78347DD1B2750C500463DB3 /* AppDelegate.swift */; };
 		C78347E01B2750C500463DB3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78347DF1B2750C500463DB3 /* ViewController.swift */; };
 		C78347E31B2750C500463DB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C78347E11B2750C500463DB3 /* Main.storyboard */; };
@@ -51,6 +52,7 @@
 		0A371EE9B38D7856C74EBA9B /* Pods-Liveblog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Liveblog.release.xcconfig"; path = "Pods/Target Support Files/Pods-Liveblog/Pods-Liveblog.release.xcconfig"; sourceTree = "<group>"; };
 		55446E379BC2E4394D3A754C /* Pods_Liveblog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Liveblog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C72A64FC1B286E1F00B9F1BF /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C771B80E1B2B38FC001ABFCF /* LiveblogLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LiveblogLogo.png; sourceTree = "<group>"; };
 		C78347DA1B2750C500463DB3 /* Liveblog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Liveblog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C78347DD1B2750C500463DB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C78347DF1B2750C500463DB3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -120,6 +122,7 @@
 				C78347DF1B2750C500463DB3 /* ViewController.swift */,
 				C78347E11B2750C500463DB3 /* Main.storyboard */,
 				C78347E41B2750C500463DB3 /* Assets.xcassets */,
+				C771B80E1B2B38FC001ABFCF /* LiveblogLogo.png */,
 				C78347E61B2750C500463DB3 /* LaunchScreen.storyboard */,
 				C78347E91B2750C500463DB3 /* Info.plist */,
 			);
@@ -236,6 +239,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C771B80F1B2B38FC001ABFCF /* LiveblogLogo.png in Resources */,
 				C78347E81B2750C500463DB3 /* LaunchScreen.storyboard in Resources */,
 				C78347E51B2750C500463DB3 /* Assets.xcassets in Resources */,
 				C78347E31B2750C500463DB3 /* Main.storyboard in Resources */,
