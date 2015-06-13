@@ -15,7 +15,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     @IBOutlet weak var textView: UITextView!
     @IBOutlet var tableView: UITableView!
     
-    var items: [String] = ["We", "Heart", "Swift"]
+    var items: [String] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
